@@ -1,0 +1,16 @@
+{%extends "base/base.html" %}
+{%block content%}
+<div class="input-group">
+    <span class="input-group-text">type text</span>
+    <textarea class="form-control" aria-label="With textarea" id='textField'></textarea>
+</div>
+<button type="button" class="btn btn-primary" id='btn-submit'>submit</button>
+
+<div class='render' id='render'>
+
+</div>
+{%endblock%}
+
+{%block script%}
+<script src='/js/taskOne.js'></script>
+{%endblock%}

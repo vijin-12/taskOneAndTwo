@@ -1,0 +1,20 @@
+{%extends "base/base.html" %}
+{%block content%}
+<div class="input-group">
+    <span class="input-group-text">string One</span>
+    <textarea class="form-control" aria-label="With textarea" id='textFieldOne'></textarea>
+</div>
+<div class="input-group">
+    <span class="input-group-text">string Two</span>
+    <textarea class="form-control" aria-label="With textarea" id='textFieldTwo'></textarea>
+</div>
+<button type="button" class="btn btn-primary" id='btn-submit'>submit</button>
+
+<div class='render' id='render'>
+    
+</div>
+{%endblock%}
+
+{%block script%}
+<script src='/js/taskTwo.js'></script>
+{%endblock%}
